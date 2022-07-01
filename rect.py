@@ -8,7 +8,6 @@ class Rectangle:
     def Perimeter(self):
         return 2*((self.len)+(self.wid))
     def Area(self):
-        
         return (self.len)*(self.wid)
     def Display(self):
         print("rectlen:",self.len)
